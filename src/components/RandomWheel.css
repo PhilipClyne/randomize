@@ -1,0 +1,84 @@
+/* RandomWheel.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  background: white;
+  justify-content: center;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-wheel {
+  margin: 25px;
+  justify-content: center;
+  display: flexbox;
+}
+.options {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.option-section {
+  margin-right: 25px;
+}
+.players-section {
+  width: 600px;
+  margin-left: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"],
+input[type="color"] {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li button {
+  background-color: #dc3545;
+}
+
+ul li button:hover {
+  background-color: #c82333;
+}
